@@ -1,11 +1,3 @@
-tasks = [
-    { "description": "Wash Dishes", "completed": False, "time_taken": 10 },
-    { "description": "Clean Windows", "completed": False, "time_taken": 15 },
-    { "description": "Make Dinner", "completed": True, "time_taken": 30 },
-    { "description": "Feed Cat", "completed": False, "time_taken": 5 },
-    { "description": "Walk Dog", "completed": True, "time_taken": 60 },
-]
-
 # MVP
 
 ## Get list of uncompleted tasks
@@ -92,3 +84,20 @@ def print_menu():
     print("7: Add a new Task to list")
     print("Q or q: Quit")
 
+def input_one():
+    return input("Select an option 1, 2, 3, 4, 5 or (Q)uit: ")
+
+def input_two():
+    return input("Enter task description to search for: ")
+
+def input_three():
+    return int(input("Enter task duration: "))
+
+def input_four():
+    return input("Enter task description to search for: ") 
+
+def input_five():
+    return input("Enter description: ")  
+
+def input_six():
+    return int(input("Enter time taken: "))
